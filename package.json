@@ -1,31 +1,34 @@
 {
-  "_from": "react-big-scheduler",
-  "_id": "react-big-scheduler@0.2.2",
+  "_args": [
+    [
+      "git+https://github.com/vmaddineni2018/react-big-scheduler.git",
+      "/Users/mikasa/Documents/Embraer/ALASS-2.0-GUI"
+    ]
+  ],
+  "_from": "git+https://github.com/vmaddineni2018/react-big-scheduler.git",
+  "_id": "react-big-scheduler@git+https://github.com/vmaddineni2018/react-big-scheduler.git#269e22bfaa9c92ab5193d2ea56be1f3664969d0d",
   "_inBundle": false,
-  "_integrity": "sha512-7TXvNbHNkquiVCznsfuYAQLqYLOHX6cw5xXErNJTK6Hfk6a8bDb309/S33U3OL370P9NtvCpRSJ7n1XBmoxVKQ==",
+  "_integrity": "",
   "_location": "/react-big-scheduler",
   "_phantomChildren": {
     "loose-envify": "1.4.0",
     "object-assign": "4.1.1",
-    "scheduler": "0.11.2"
+    "scheduler": "0.13.1"
   },
   "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "react-big-scheduler",
-    "name": "react-big-scheduler",
-    "escapedName": "react-big-scheduler",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+    "type": "git",
+    "raw": "git+https://github.com/vmaddineni2018/react-big-scheduler.git",
+    "rawSpec": "git+https://github.com/vmaddineni2018/react-big-scheduler.git",
+    "saveSpec": "git+https://github.com/vmaddineni2018/react-big-scheduler.git",
+    "fetchSpec": "https://github.com/vmaddineni2018/react-big-scheduler.git",
+    "gitCommittish": null
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/react-big-scheduler/-/react-big-scheduler-0.2.2.tgz",
+  "_resolved": "git+https://github.com/vmaddineni2018/react-big-scheduler.git#269e22bfaa9c92ab5193d2ea56be1f3664969d0d",
   "_shasum": "534bc84bd652811d3e2e4ffed07b6cabdb228ccd",
-  "_spec": "react-big-scheduler",
+  "_spec": "git+https://github.com/vmaddineni2018/react-big-scheduler.git",
   "_where": "/Users/mikasa/Documents/Embraer/ALASS-2.0-GUI",
   "author": {
     "name": "Stephen Chou",
