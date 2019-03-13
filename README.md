@@ -1,4 +1,6 @@
-Forked from https://github.com/StephenChou1017/react-big-scheduler. All credits would go to him
+Forked from https://github.com/StephenChou1017/react-big-scheduler. All credits would go to him.
+
+
 react-big-scheduler
 ========================
 
