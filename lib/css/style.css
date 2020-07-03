@@ -49,16 +49,17 @@
 }
 
 .resource-view {
-    border: 1px solid #000000;
+    border: 2px solid #aba9a9;
     overflow: hidden;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 .scheduler-view {
-    border: 1px solid #000000;
+    border: 2px solid #aba9a9;
     margin: 0 0 0 -1px;
     padding: 0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
 }
-
 .scheduler-content {
     position: relative;
     z-index: 2;
@@ -82,25 +83,35 @@ table.resource-table, table.scheduler-bg-table, table.scheduler-table {
 }
 
 table.scheduler-table {
-    border: 1px solid #000000;
+    border: 2px solid #aba9a9;
 }
 
 table.scheduler-content-table {
     margin: 0;
     padding: 0;
-    border: 0 solid #000000;
+    border: 0 solid #aba9a9;
     border-spacing: 0;
 }
 
-table.resource-table tr, table.scheduler-bg-table tr, table.scheduler-table tr {border-bottom: 1px solid #000000}
+table.resource-table tr, table.scheduler-bg-table tr, table.scheduler-table tr {border-bottom: 1px solid #aba9a9}
 
 table.resource-table th, table.scheduler-table th, table.resource-table td, table.scheduler-bg-table td, table.scheduler-table td{
-    border-right: 1px solid #000000;
-    border-bottom: 1px solid #000000;
+    border-right: 1px solid #aba9a9;
+    border-bottom: 1px solid #aba9a9;
+}
+
+/* table.scheduler tbody {
+    border: 1px solid #aba9a9;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    989898
+} */
+
+table.scheduler-bg-table td:nth-child(odd) {
+    border-right: 1px dotted #c4c4c4;
 }
 
 table.scheduler-bg-table th {
-    border-right: 1px solid #000000;
+    border-right: 1px solid #aba9a9;
 }
 
 table.resource-table tr th:last-child, /*table.scheduler-bg-table tr th:last-child, */table.scheduler-table tr th:last-child,
@@ -179,7 +190,7 @@ table.resource-table tr td:last-child, /*table.scheduler-bg-table tr td:last-chi
 .add-more-popover-overlay {
     position: absolute;
     z-index: 5;
-    border: 1px solid #e5e5e5;
+    border: 2px solid #e5e5e5;
     background-color: #fff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
     padding: 10px;
